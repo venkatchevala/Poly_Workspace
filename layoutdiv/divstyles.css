@@ -1,0 +1,53 @@
+html{
+    scroll-behavior:smooth;
+}
+body {
+    background-color: linen;
+    margin: 0;
+}
+#divd{
+   
+    margin: auto;
+    padding: 50px;
+    background-color: rgba(163, 241, 231, 0.418);
+    height: 420px;
+
+    
+}
+
+#div1{
+    height: 200px;
+    width: 468px;
+    padding: 10px;
+    background-color: crimson;
+    float: left;
+
+}
+#div2{
+    height: 200px;
+    width: 468px;
+    padding:10px;
+    background-color: rgb(20, 190, 220);
+    float: right;
+
+}
+
+#div3{
+    height: 200px;
+    width: 468px;
+    padding: 10px;
+    background-color: rgb(20, 220, 143);
+    float: left;
+
+}
+#div4{
+    height: 200px;
+    width: 468px;
+    padding: 10px;
+    background-color: rgb(93, 220, 20);
+    float: right;
+
+}
+
+
+

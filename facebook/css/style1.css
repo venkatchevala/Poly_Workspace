@@ -1,0 +1,108 @@
+html{
+    scroll-behavior:smooth;
+}
+body {
+    background: #fff;
+    color: #1c1e21;
+    direction: ltr;
+    line-height: 1.34;
+    margin: 0;
+    padding: 0;
+    unicode-bidi: embed;
+}
+
+
+.header{
+    width: 100%;
+    height: 60px;
+    background: blue;
+}
+
+.logo {
+    width: 50%;
+    height: 60px;
+    float: left;
+}
+h2{
+    margin: 0;
+    padding-left: 30px;
+    padding-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.loginform{
+    width: 50%;
+    height: 60px;
+    float: left;
+}
+.formele{
+    float: left;
+    margin-right: 20px;
+}
+.loginbtn{
+    margin-top: 20px;
+    background: blue;
+}
+
+.signupform{
+  width: 100%;
+/*background-color: blanchedalmond; */
+        height: 450px;
+    
+}
+
+.img {
+    width: 50%;
+    height: 440px;
+    float: left;
+}
+.formimg {
+    width: 100%;
+    height: 170px;
+}
+
+.form1 {
+    width: 50%;
+    height: 440px;
+    float: left;
+}
+
+
+.heading{
+    padding: 3px;
+    margin-left: 87px;
+}
+
+.h1hd{
+    margin: 0;
+}
+
+.p1{
+    margin: 0;
+}
+
+.placeholder{
+    padding: 6px;
+    width: 100%;
+    height: 232px;
+    margin-left: 87px;
+    margin-top: 22px;
+}
+.signupbutton{
+    background-color: #598c45;
+    width: 26%;
+    height: 38px;
+}
+
+
+    .lastp {
+        padding: 6px;
+        padding-top: 1px;
+        margin-left: 89px;
+        margin-top: 10px;
+    }
+.footer{
+    text-align: center;
+}

@@ -1,0 +1,127 @@
+
+html{
+    scroll-behavior:smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.mainheader{
+    width: 100%;
+    height: 60px;
+    background-color: black
+}
+.websitetitle{
+    height: 52px;
+    width: 50%;
+    float: left;
+    margin-left: 28px;
+    font-family: initial;
+    font-style: italic;
+    font-weight: 200;
+    color: white;
+}
+
+.serchbox{
+    width: 47%;
+    float: right;
+    text-align: right;
+    height: 52px;
+    padding-top: 5px;
+    padding-right: 4px;
+    color: white;
+}
+.radio1{
+    color: white;
+}
+.go{
+background-color: orange;
+    border: 2px solid rgba(0, 0, 0, 0.144);
+    border-radius: 10px;
+    background-color: white;
+  
+}
+
+.button{
+    background-color: orange;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+
+.nav{
+    width: 100%;
+    height: 50px;
+    background-color: red;
+}
+.navmenu{
+color: white;
+    text-decoration: none;
+    padding-bottom: 13px;
+    margin-top: 27px;
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.imgsec{
+    height: 230px;
+    width: 100%;
+}
+.imagebar{
+    height: 229px;
+    width: 100%;
+}
+
+.content{
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     margin-left: 10px;
+     font-style: initial;
+}
+.submain{
+        width: 100%;
+        height:280px;
+    }
+.sub1{
+    width: 50%;
+    height: 232px;
+    float: left;
+}
+.men{
+    width: 23%;
+    margin-left: 23px;
+}
+
+.paragraph1{
+    margin-left: 23px;
+    margin-right: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: initial;
+}
+
+.sub2{
+    width: 50%;
+    height: 232px;
+    float: right;
+}
+.women{
+    width: 21%;
+    margin-left: 23px;
+}
+
+.paragraph2{
+    margin-left: 23px;
+    margin-right: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footer{
+    height: 50px;
+    text-align: center;
+    font-style: oblique;
+    font-family: fantasy;
+    padding: 15px;
+}
