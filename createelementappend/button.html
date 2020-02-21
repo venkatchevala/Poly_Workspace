@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to make a BUTTON element.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  var btn = document.createElement("BUTTON");
+  document.body.appendChild(btn);
+  btn.innerHTML="click me"
+  btn.style.background="red";
+  btn.style.width="15%";
+  btn.style.border="1px solid yellow";
+  btn.style.height="40px"
+}
+</script>
