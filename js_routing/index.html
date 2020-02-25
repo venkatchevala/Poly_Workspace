@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display pages</title>
+
+    <script src="main.js"></script>
+</head>
+<style>
+    .nav {
+    margin: 0;
+    width: 100%;
+    background-color: aqua;
+    height: 61px;
+    display: inline-flex;
+}
+.navhome{
+width: 6%;
+    border: 2px solid red;
+    height: 30px;
+    padding-left: 22px;
+    padding-top: 13px;
+    margin-left: 12px;
+    margin-top: 7px;
+    font-family: serif;
+    color: saddlebrown;
+    font-weight: 600;
+}
+.navabout{
+    width: 73px;
+    height: 30px;
+    padding-left: 22px;
+    padding-top: 13px;
+    margin-left: 12px;
+    margin-top: 7px;
+    border: 2px solid red;
+    font-family: serif;
+    color: saddlebrown;
+    font-weight: 600;
+}
+.navcontact{
+    width: 73px;
+    height: 30px;
+    padding-left: 22px;
+    padding-top: 13px;
+    margin-left: 12px;
+    margin-top: 7px;
+    border: 2px solid red;
+    font-family: serif;
+    color: saddlebrown;
+    font-weight: 600;
+}
+.nav:hover{
+    background-color: bisque;
+}
+</style>
+<body>
+  <div class="nav">
+      <div onclick="renderHome()" class="navhome">Home</div>
+      <div onclick="renderAbout()" class="navabout">About</div>
+      <div onclick="renderContact()" class="navcontact">Contact</div>
+  </div>
+    <div id="content">
+        <div class="don">Home content</div>
+    </div>
+</body>
+</html>
